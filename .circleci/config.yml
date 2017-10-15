@@ -1,7 +1,7 @@
 version: 2
 jobs:
-  working_directory: /fire
   build:
+    working_directory: /fire
     docker:
       - image: enumack/buildcontainers:gtest-clang-5.0
     steps:
